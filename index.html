@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script src="js/main.js"></script>
+        <script src="js/check.js"></script>
+        <title>测试</title>
+        <style>
+            .black {
+                width: 20px;
+                height: 20px;
+            }
+
+            .show {
+                font-size: 16px;
+            }
+
+            .flag {
+                font-size: 16px;
+                color: red;
+            }
+
+            .lei {
+                font-size: 16px;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main" id="main">
+            <button onclick="begin()">开始</button>
+            <!-- <button onmousedown="checkDown(event)" onmouseup="checkUp(event)">开始2</button> -->
+        </div>
+        <div class="restart" id="restart" style="display: none;">
+            <button onclick="rebegin()">重新开始</button>
+        </div>
+    </body>
+</html>
